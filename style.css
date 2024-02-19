@@ -82,6 +82,18 @@ border-radius: 8px;
 background-color: #3882F6;
 color: white;
 margin: 4px;
+}
 
+.card{
 
-}   
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header2{
+
+  display: flex;
+  justify-content: center;
+  
+}

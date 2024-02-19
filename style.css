@@ -34,7 +34,8 @@ ul {
     color: #E5E7EB;
     font-size: 24px;
     grid-template-columns: 1fr 1fr 1fr;   
-  grid-template-areas: "content content sidebar";
+    grid-template-areas: "content content sidebar";
+
   
  }
  .main {
@@ -58,18 +59,24 @@ ul {
     margin-bottom: 8px;
   }
 
-  .text {
-  margin-bottom: 16px;
+.testing{
+
+  margin: 14px;
 }
-  .bouton{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #eee;
-    padding: 0;
-}   
+
 .text{  
  
+   
     
     margin-bottom: 8px;
 }
+
+
+.bouton{
+ 
+padding: 8px 16px;
+border-radius: 8px;
+background-color: royalblue;
+color: white;
+
+}   

@@ -43,7 +43,7 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;   
     grid-template-areas: "content content sidebar";
     padding: 70px 230px;
-  
+    
  }
  .main {
     grid-column: content;

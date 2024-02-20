@@ -4,7 +4,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    background-color: #1F2937;
+    background-color: #235037;
     color: #E5E7EB;
     font-size: 24px;
     padding: 20px 240px;
@@ -33,11 +33,29 @@ ul {
     color: #F9FAF8;
   }
 
+  .C1 {
+    background-image: url(./Images/TeemoBack1.jpg);
+    
+
+    background-size: cover; /* Ajuste la taille de l'arrière-plan pour couvrir la boîte */
+    background-position: center; 
+
+  }
+
+  .C2 {
+    background-image: url(./Images/TeemoBack2.jpg);
+    
+
+    background-size: cover; /* Ajuste la taille de l'arrière-plan pour couvrir la boîte */
+    background-position: center; 
+
+  }
+
   .contenaire{  
     
     
     display: grid;
-    background-color: #1F2937;
+    
     color: #E5E7EB;
     font-size: 24px;
     grid-template-columns: 1fr 1fr 1fr;   
@@ -54,7 +72,7 @@ ul {
     
     width: 400px;
     height: 210px;
-
+    
   }
 
 
@@ -64,8 +82,11 @@ ul {
 .testing{
   font-size: 18px;
   color: #E5E7EB;
-  margin: 10px;
-  
+  /* margin: 10px; */
+  display: grid;
+  justify-items: center;
+  /* align-content: space-between; */
+  margin: 0px 100px 10px 10px;
 }
 
 .text{  
@@ -79,11 +100,17 @@ ul {
 
 .bouton{
  
-padding: 8px 30px;
-border-radius: 8px;
-background-color: #3882F6;
-color: white;
-margin: 4px;
+  background-image: url('./Images/Gas.gif'); /* Remplacez 'votre-animation.gif' par le chemin vers votre fichier GIF */
+  background-size: cover; /* Ajuste la taille de l'arrière-plan pour couvrir complètement le bouton */
+  color: #fff; /* Couleur du texte pour assurer la visibilité */
+  padding: 10px 20px; /* Ajoutez du rembourrage pour le bouton */
+  border: none; /* Supprime la bordure du bouton si nécessaire */
+  text-align: center; /* Centre le texte dans le bouton */
+  text-decoration: none; /* Supprime les soulignements par défaut sur le texte du bouton */
+  display: inline-block; /* Permet au bouton de s'ajuster automatiquement à la taille du texte */
+  cursor: pointer; /* Définissez le curseur sur pointer pour indiquer que le bouton est cliquable */;
+  border-radius: 90px;
+  margin: 10px;
 }
 
 .boxes {
@@ -102,6 +129,7 @@ margin: 4px;
   color: #1F2937;
   padding: 20px;
   font-weight: 800;
+  color: white;
 }
 .text1{
 
@@ -110,17 +138,17 @@ margin: 4px;
 
 .contenaire1{
   padding: 110px;
-
+  background-color: #689655;
 }
 
-.square {
+.Teemosort {
   display: flex;
   width: 100px;
   height: 100px;
-  padding: 8px;
+  
   border: 4px solid;
-  border-color: #3882f6;
-  border-radius: 16px;
+  border-color: goldenrod;
+  border-radius: 50px;
   margin-bottom: 5px;
   align-content: center;
 }
@@ -129,7 +157,7 @@ margin: 4px;
   display: flex;
   justify-content: center;
   padding: 100px 150px 0px;
-  background-color: #E5E7EB;
+  
  
 
 }
@@ -139,14 +167,14 @@ margin: 4px;
   font-weight: lighter;
   font-style: italic;
   max-width: 760px;
-
+ color: white;
 }
 
 .auteur{
   display: flex;
   justify-content: flex-end;
   
-  background-color: #E5E7EB;
+  color: white;
   font-weight: bold;
   padding: 0px 350px 50px 0px;
       
@@ -154,18 +182,19 @@ margin: 4px;
 
 .contenaire3
 {
-  
+  background-color: #689655;
   padding: 85px 230px;
 }
 
 .card2
 {
-  background-color: #3882F6;
+  opacity: 70%;
+  background-color: black;
   display: block;
-  border-radius: 5px;
+  border-radius: 35px;
   color: white;
   padding: 20px 0px 40px 90px;
-
+  
 }
 
 h3{
@@ -174,23 +203,41 @@ h3{
   font-size: 24px;
   margin-bottom: 4px;
   }
-  .call-boutton{
-    
-    
-    padding: 9px 30px;
-  border-radius: 8px;
-  background-color: #3882F6;
-  color: white;
-  border-color: white;
-  margin-left: 160px;
 
-  }
 
   .footer{
     display: flex;
     justify-content: center;
     padding: 40px ;
-    background-color: #1F2937;
+    background-color: #235037;
     color: white;
     font-size: 18px;
   }
+
+  .tetologo
+  {
+
+    width: 130px;
+    height: 80px;
+    
+  }
+
+  .Mushroom{
+    width: 30px;
+    height: 22px;
+
+  }
+
+ .imagetito1
+
+ {
+  margin: 0px 15px;
+ }
+
+.sorttext 
+{
+  display: flex;
+    width: 170px;
+   color: white;
+    margin-top: 20px;
+}

@@ -96,14 +96,21 @@ margin: 4px;
 }
 
 .header2{
-
+  font-size: 36px;
   display: flex;
   justify-content: center;
-  
+  color: #1F2937;
+  padding: 20px;
+  font-weight: 800;
 }
 .text1{
 
   display: flex;
+}
+
+.contenaire1{
+  padding: 110px;
+
 }
 
 .square {
@@ -114,6 +121,8 @@ margin: 4px;
   border: 4px solid;
   border-color: #3882f6;
   border-radius: 16px;
+  margin-bottom: 5px;
+  align-content: center;
 }
 
 .contenaire2{
@@ -166,6 +175,7 @@ h3{
   margin-bottom: 4px;
   }
   .call-boutton{
+    
     
     padding: 9px 30px;
   border-radius: 8px;

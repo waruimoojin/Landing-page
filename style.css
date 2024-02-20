@@ -163,6 +163,7 @@ h3{
   display: flex;
   justify-content: flex-start;
   font-size: 24px;
+  margin-bottom: 4px;
   }
   .call-boutton{
     
@@ -171,6 +172,7 @@ h3{
   background-color: #3882F6;
   color: white;
   border-color: white;
+  margin-left: 160px;
 
   }
 

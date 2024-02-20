@@ -145,8 +145,8 @@ margin: 4px;
 
 .contenaire3
 {
-
-  padding: 85px 85px;
+  
+  padding: 85px 230px;
 }
 
 .card2
@@ -154,11 +154,31 @@ margin: 4px;
   background-color: #3882F6;
   display: block;
   border-radius: 5px;
-
+  color: white;
+  padding: 20px 0px 40px 90px;
 
 }
 
 h3{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 24px;
+  }
+  .call-boutton{
+    
+    padding: 9px 30px;
+  border-radius: 8px;
+  background-color: #3882F6;
+  color: white;
+  border-color: white;
 
+  }
 
-}
+  .footer{
+    display: flex;
+    justify-content: center;
+    padding: 40px ;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+  }
